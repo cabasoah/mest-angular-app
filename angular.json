@@ -31,6 +31,8 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/bulma/css/bulma.css",
+              "node_modules/@fortawesome/fontawesome-free/css/fontawesome.css",
               "src/styles.scss"
             ],
             "scripts": []

@@ -1,1 +1,54 @@
-/* You can add global styles to this file, and also import other style files */
+
+html, body {
+  height: 100%;
+  background-color: #f9f9f9;
+}
+
+body {
+  margin: 0;
+}
+
+@font-face {
+  font-family: 'SansBold';
+  font-display: swap;
+  src: url('/assets/fonts/Sans-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'SansRegular';
+  font-display: swap;
+  src: url('/assets/fonts/Sans-Regular.ttf') format('truetype');
+}
+
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .title {
+  font-family: SansBold, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  margin-bottom: .5rem;
+  font-weight: 900;
+  line-height: 1.2;
+  color: inherit;
+}
+
+body,
+p,
+button,
+div,
+span,
+font,
+option,
+select,
+.label,
+.help,
+.input,
+.select,
+.label,
+.button,
+.textarea {
+  font-family: SansRegular, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;;
+  font-size: 16px;
+}
+
+.fa {
+  width: 16px;
+  height: 16px;
+}
