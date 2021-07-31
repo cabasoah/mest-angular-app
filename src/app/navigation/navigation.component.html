@@ -1,0 +1,73 @@
+<!-- Index NavBar -->
+ <nav class="navbar" role="navigation" aria-label="main navigation" id="index-navbar" *ngIf="!optionalRoutingParam">
+  <div class="navbar-brand">
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarOpen">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+  <div id="navbarOpen" class="navbar-menu ml-5">
+    <div class="navbar-start" id="index-navbar-start">
+      <a class="navbar-item">
+        Documentation
+      </a>
+
+      <a class="navbar-item">
+        Technical Reference
+      </a>
+
+      <a class="navbar-item">
+        API Explorer
+      </a>
+
+      <a class="navbar-item">
+        <i class="fa fa-search"></i>
+      </a>
+
+
+    </div>
+
+    <div class="navbar-end">
+      <div class="navbar-item">
+        <p>SHACK15</p>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<!-- Home NavBar -->
+<nav class="navbar" role="navigation" aria-label="main navigation" *ngIf="optionalRoutingParam">
+  <div class="navbar-brand">
+     <a class="navbar-item">
+      <p><i class="fa fa-bars"></i></p>
+     </a>
+  </div>
+  <div class="navbar-menu">
+    <div class="navbar-start">
+      <a href="" class="navbar-item mt-2">
+       <p>Home</p>
+      </a>
+    </div>
+
+    <div class="navbar-end">
+      <div class="navbar-item">
+        <i class="fa fa-search"></i>
+        <i class="fa fa-bell"></i>
+        <i class="fa fa-question-circle"></i>
+      </div>
+      <!--div class="navbar-item">
+        <i class="fa fa-bell"></i>
+      </div>
+
+      <div class="navbar-item">
+        <i class="fa fa-question-circle"></i>
+      </div> -->
+
+      <div class="navbar-item">
+        <p class="mt-2">Default Test Account</p>
+      </div>
+    </div>
+  </div>
+</nav>
+
